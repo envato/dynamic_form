@@ -1,4 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'jeweler'
+gem 'minitest'
 gem 'mocha'
+gem 'rails', ENV.fetch('RAILS_VERSION', '~> 7')
